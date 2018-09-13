@@ -5,9 +5,41 @@
 
     <body>
         <script src="sort.js"></script>
-        <h1>Test</h1>
-        <textarea type = "text" id = "input"></textarea>
-        <textarea type = "text" id = "output" readonly></textarea>
-        <button id="btn-filter" onclick="filter()">Filter</button>
+        <h1>Reference Sorter</h1>
+        
+        <div class="sort">
+            <div class="sort-form">
+                <h1>Input</h1>
+                <textarea type = "text" id = "filter-input"></textarea>
+            </div>
+            <div class="sort-form">
+                <h1>Output</h1>
+                <textarea type = "text" id = "filter-output" readonly></textarea>
+            </div>
+            <button id="btn-filter" onclick="filter()">Filter</button> 
+        </div>
+        
+        
+        <div class="sort">
+            <div class="sort-form">
+                <h1>Input</h1>
+                <textarea type = "text" id = "amalgamate-input"></textarea>
+            </div>
+            <div class="sort-form">
+                <h1>Output</h1>
+                <textarea type = "text" id = "amalgamate-output" readonly></textarea>
+            </div>
+            <button id="btn-amalgamate" onclick="amalgamate()">Amalgamate</button> 
+        </div>
+
     </body>
 </html>
+
+
+<!--         <div class = "filter">
+            <textarea type = "text" id = "filter-input"></textarea>
+            <textarea type = "text" id = "filter-output" readonly></textarea>
+            <button id="btn-filter" onclick="filter()">Filter</button> 
+        </div>
+        
+        

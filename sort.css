@@ -1,5 +1,21 @@
 textarea{
     height: 400px;
-    width: 600px;
+    width: 450px;
+    margin: 0px 10px 8px;
+}
+.sort{
+    text-align:center;
+    
+}
+.sort-form{
+    display:inline-block;
+    text-align:center;
 }
 
+button{
+    display:block;
+    margin: 0 auto;
+    width: 500px;
+    height: 45px;
+    
+}
